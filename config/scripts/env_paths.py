@@ -1,14 +1,12 @@
 import site
 from pathlib import Path
 
-root = Path.cwd().parent
+root = Path.cwd()
 
 src_path = root / 'src'
-scripts_path = root / 'src' / 'scripts'
-utils_path = root/ 'src' / 'utils'
 config_path = root / 'config'
 
-env_paths = [src_path, scripts_path, utils_path, config_path]
+env_paths = [src_path, config_path]
 
 site_pckgs_dir = Path(site.getsitepackages()[0])
 
