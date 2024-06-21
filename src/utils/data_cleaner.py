@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 
-from data_loader import DataLoader
+from utils.data_loader import DataLoader
 from config import Config
 
 class DataCleaner:
